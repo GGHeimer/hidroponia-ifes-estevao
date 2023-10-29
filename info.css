@@ -38,13 +38,28 @@ body {
 .coluna-direita h1 {
     margin-bottom: 25px;
 }
+.coluna-direita h2 {
+    margin-bottom: 25px;
+}
+
 
 .coluna-direita {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 4;
 
     background-color: var(--cor-coluna-direita);
+
+    width: fit-content;
+    height: 100vh;
+}
+
+.top {
+    padding: 50px;
+}
+
+.mid {
+    padding: 50px;
 }
 
 .coluna-esquerda ul {
